@@ -1,0 +1,59 @@
+.servicos {
+    display: none;
+}
+
+.forms {
+    background-color: #e3e4e6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 2em;
+}
+
+#formulario {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#ver_idade,
+#enviar {
+    background-color: #0579c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#ver_idade:hover,
+#enviar:hover {
+    background-color: #045d9f;
+}
+
+form label {
+    margin-bottom: 10px;
+}
